@@ -4,7 +4,7 @@
 #include "chunk.h"
 
 typedef struct {
-  Chunk* chunk;
+  chunk_t* chunk;
 } VM;
 
 void vm_init(void);
