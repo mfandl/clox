@@ -1,5 +1,4 @@
-#ifndef clox_vm_h
-#define clox_vm_h
+#pragma once
 
 #include "chunk.h"
 #include "value.h"
@@ -26,5 +25,3 @@ interpret_result vm_interpret(chunk_t *chunk);
 
 void vm_stack_push(value_t value);
 value_t vm_stack_pop(void);
-
-#endif

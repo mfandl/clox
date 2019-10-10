@@ -1,5 +1,4 @@
-#ifndef clox_value_h
-#define clox_value_h
+#pragma once
 
 #include "common.h"
 
@@ -18,5 +17,3 @@ void value_print(value_t value);
 void value_array_init(value_array_t *array);
 void value_array_write(value_array_t *array, value_t value);
 void value_array_free(value_array_t *array);
-
-#endif

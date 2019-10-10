@@ -1,5 +1,4 @@
-#ifndef clox_memory_h
-#define clox_memory_h
+#pragma once
 
 #include "common.h"
 
@@ -13,5 +12,3 @@
   reallocate(pointer,  0)
 
 void *reallocate(void *previous, size_t new_size);
-
-#endif
